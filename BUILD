@@ -489,7 +489,7 @@ internal_gen_well_known_protos_java(
 java_library(
     name = "protobuf_java",
     srcs = glob([
-        "java/core/src/main/java/com/google/protobuf/*.java",
+        "java/src/main/java/com/google/protobuf/*.java",
     ]) + [
         ":gen_well_known_protos_java",
     ],
