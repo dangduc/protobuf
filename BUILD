@@ -173,18 +173,8 @@ cc_library(
 
 RELATIVE_WELL_KNOWN_PROTOS = [
     # AUTOGEN(well_known_protos)
-    "google/protobuf/any.proto",
-    "google/protobuf/api.proto",
     "google/protobuf/compiler/plugin.proto",
     "google/protobuf/descriptor.proto",
-    "google/protobuf/duration.proto",
-    "google/protobuf/empty.proto",
-    "google/protobuf/field_mask.proto",
-    "google/protobuf/source_context.proto",
-    "google/protobuf/struct.proto",
-    "google/protobuf/timestamp.proto",
-    "google/protobuf/type.proto",
-    "google/protobuf/wrappers.proto",
 ]
 
 WELL_KNOWN_PROTOS = ["src/" + s for s in RELATIVE_WELL_KNOWN_PROTOS]
